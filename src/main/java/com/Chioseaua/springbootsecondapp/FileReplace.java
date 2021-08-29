@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileReplace {
-    List<String> lines = new ArrayList<String>();
+    List<String> lines = new ArrayList<>();
     String line = null;
 
     public void updateFile(int i, String toBeUpdated, String withWhat) {
@@ -36,6 +36,7 @@ public class FileReplace {
                 bw.write("\n");
             }
             bw.flush();
+            fw.close();
             bw.close();
         } catch (Exception e) {
             e.printStackTrace();
@@ -67,7 +68,4 @@ public class FileReplace {
         }
     }
 
-    public void clearFile(File file) {
-
-    }
 }

@@ -67,9 +67,9 @@ public class Customer extends User{
     }
 
     public void placeOrder() {
-        if(isLoginStatus() == true) {
+        if(isLoginStatus()) {
             Order order = new Order(this.customerName, getUserID());
-            Double totalOrderPrice = 0.0;
+            Double totalOrderPrice = 0.00;
             for(Map.Entry<String, CartItem> pair : shoppingCart.getItems().entrySet()) {
                 totalOrderPrice += pair.getValue().getPrice() * pair.getValue().getQuantity();
                 if(totalOrderPrice <= this.accountBalance) {

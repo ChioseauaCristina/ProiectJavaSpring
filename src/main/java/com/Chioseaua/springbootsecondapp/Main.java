@@ -8,27 +8,8 @@ public class Main {
 
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        /*Bcrypt bcrypt = new Bcrypt();
-        Scanner scanner = new Scanner(System.in);
-        bcrypt.setPassword(scanner.nextLine());
-        bcrypt.setHashedPassword();
-        bcrypt.checkPassword("maria");
-
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");
-
-        LocalDateTime now = LocalDateTime.now();
-        //System.out.println(dtf.format(now));
-        String s = dtf.format(now);
-        System.out.println(s);
-
-        Customer customer = new Customer();
-        customer.register();
-        customer.VerifyLogin();
-        */
-
-
         List<Customer> customerList = new ArrayList<>();
-        Customer customer = new Customer();
+        Customer customer;
         boolean condition = false;
         Administrator administrator = new Administrator();
 

@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a9a3ebec-4ab0-4cde-a517-d22283946d71" name="Default Changelist" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/FileReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/FileReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Chioseaua/springbootsecondapp/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - Universitatea Politehnica Timisoara/Invatare/JavaCurs/PoolArea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -120,6 +125,7 @@
       <workItem from="1629711378679" duration="2633000" />
       <workItem from="1629888478549" duration="18000" />
       <workItem from="1630066340411" duration="15000" />
+      <workItem from="1630240676944" duration="4265000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1629715852594</created>

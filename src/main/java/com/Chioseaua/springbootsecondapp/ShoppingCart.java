@@ -10,10 +10,8 @@ import java.util.Scanner;
 
 public class ShoppingCart {
 
-   // private String cartId;
-    private Map<String, CartItem> items = new HashMap<>();
+    private final Map<String, CartItem> items = new HashMap<>();
     private LocalDateTime dateAdded = LocalDateTime.now();
-    private static long idCounter = 0;
 
 
     public void ShoppingCart() {
@@ -48,7 +46,7 @@ public class ShoppingCart {
                     }
                 }
             }
-            if(check == false) {
+            if(!check) {
                 System.out.println("The product you have tried to add is not in the stock list.");
             }
         } catch (IOException e) {

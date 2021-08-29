@@ -1,11 +1,11 @@
 package com.Chioseaua.springbootsecondapp;
 
 public class ProductDetails {
-    private String productId;
-    private String productName;
-    private int quantity;
-    private double unitCost;
-    private double subtotal;
+    private final String productId;
+    private final String productName;
+    private final int quantity;
+    private final double unitCost;
+    private final double subtotal;
 
     public ProductDetails( String productName,String productId,  double unitCost, int quantity) {
         this.productId = productId;
